@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println("hi world, this is the gh-testing extension!")
 	client, err := gh.RESTClient(nil)
 	if err != nil {
 		fmt.Println(err)
@@ -19,7 +18,7 @@ func main() {
 		fmt.Println(err)
 		return
 	}
-	fmt.Printf("running as %s\n", response.Login)
+	fmt.Printf("Bu deneme yazısıdır %s\n", response.Login)
 }
 
 // For more examples of using go-gh, see:
